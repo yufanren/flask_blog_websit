@@ -6,6 +6,7 @@ class Config:
     MAIL_SERVER = 'smtp.mailtrap.io'
     MAIL_PORT = 2525
     MAIL_USE_TLS = True
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
     if ENV == 'DEV':
         SECRET_KEY = os.environ.get('SECRET_KEY')
         SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
