@@ -1,6 +1,6 @@
 import os
 
-#run python run.py instead of running from pycharm
+#run python app.py instead of running from pycharm
 class Config:
     SECRET_KEY = '31c5abf54096e0d96d440567e38d4209'
     #SECRET_KEY = os.environ.get('SECRET_KEY')
