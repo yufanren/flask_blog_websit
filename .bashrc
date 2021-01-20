@@ -1,0 +1,4 @@
+export SECRET_KEY='31c5abf54096e0d96d440567e38d4209'
+export SQLALCHEMY_DATABASE_URI='sqlite:///site.db'
+export MAIL_USERNAME='93ec69c7272171'
+export MAIL_PASSWORD='ff90d7da0930ad'
